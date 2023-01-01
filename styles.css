@@ -1,0 +1,185 @@
+.Header_Container
+{
+    display: flex;
+    height: 60px;
+}
+
+.Left
+{
+    margin-left: 10px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.Right
+{
+    display: flex;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.Right > a
+{
+    margin-left: 20px;
+}
+
+.Right > p
+{
+    color: #5F6368;
+    font-size: 20px;
+}
+
+#more
+{
+    margin-left: 50px;
+}
+
+.Left > p{
+    margin-left: 5px;
+    font-size: 24px;
+    margin-bottom: 28px;
+    text-decoration: underline;
+}
+
+.Body_Container
+{
+    margin-top: 30px;
+    display: flex;
+}
+
+.BLeft
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 30px;
+}
+
+.Big
+{
+    font-size: 40px;
+}
+
+#T
+{
+    margin-top: -20px;
+    font-size: 20px;
+    width: 74%;
+    color: #606366;
+}
+
+.Buttons
+{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#newMeeting
+{
+    width: 155px;
+    height: 50px;
+    background-color: #1A73E8;
+    border-radius: 3px;
+    border: 0px;
+}
+
+#newMeeting > div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#newMeeting > div > p
+{
+    margin-left: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+#code
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    width: 270px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+#code > input
+{
+    width: 220px;
+    border: 0px;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+#code > img
+{
+    margin-left: 15px;
+}
+
+.Line
+{
+    width: 90%;
+    height: 1px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: #DADCE0;
+}
+
+#LearnMore
+{
+    text-decoration: none;
+}
+
+#LearnMore:hover
+{
+    text-decoration: underline;
+}
+
+.BRight
+{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Image
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Texts
+{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Texts > p
+{
+    text-align: center;
+    width: 70%;
+    margin-bottom: -5px;
+}
+
+#GetALink
+{
+    font-size: 28px;
+}   
